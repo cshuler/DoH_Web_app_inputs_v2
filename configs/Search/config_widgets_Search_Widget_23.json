@@ -1,0 +1,35 @@
+{
+  "allPlaceholder": "",
+  "showInfoWindowOnSelect": true,
+  "sources": [
+    {
+      "url": "http://geodata.hawaii.gov/arcgis/rest/services/Geocoding/USA/GeocodeServer",
+      "name": "Hawaii Geocoder - No Cost - Use First",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "Find address or place",
+      "countryCode": "",
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "searchInCurrentMapExtent": false,
+      "enableLocalSearch": false,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000,
+      "radiusUnit": "meter",
+      "type": "locator"
+    },
+    {
+      "name": "ArcGIS World Geocoding Service",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "Find address or place",
+      "maxResults": 6,
+      "searchInCurrentMapExtent": false,
+      "type": "locator",
+      "enableLocalSearch": true,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000
+    }
+  ]
+}
